@@ -1,0 +1,42 @@
+Kaikkiaan ääniä on 51
+
+
+Asemakuulutukset 39 kpl
+
+Ruoholahti 3
+Kamppi 3
+Rautatientori 2
+Kaisaniemi 2
+Hakaniemi 2
+Sörnäinen 2
+Kalasatama 2
+Kulosaari 2
+Herttoniemi 2
+Siilitie 2
+Itäkeskus 7
+
+Puotila 1
+Rastila 1
+Vuosaari 2
+
+Myllypuro 2
+Kontula 2
+Mellunmäki 2
+
+
+Muut kuulutukset 7 kpl
+
+Jatkamme matkaa hetken kuluttua 1
+Junan vaihto 1
+Kääntöraide 1
+Ovet suljetaan 1
+Pyöräily 1
+Tämä juna on täynnä 1
+Tupakointi 1
+
+
+Junan äänet 5
+
+Jarrutus 2
+Kiihdytys 2
+Ovet sulkeutuvat 1

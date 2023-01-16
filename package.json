@@ -1,0 +1,20 @@
+{
+  "name": "helsinki-metro-soundboard",
+  "version": "0.0.1",
+  "description": "Helsinki metro train M100 running sounds and metro announcements",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "M100",
+    "Helsingin",
+    "metro",
+    "HKL"
+  ],
+  "author": "saabismi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.2"
+  }
+}
