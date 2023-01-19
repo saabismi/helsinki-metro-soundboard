@@ -5,7 +5,7 @@ const path = require('path') // something needed for the preload
 // function for creating the main application window
 const createWindow = () => {
     const win = new BrowserWindow({
-        width: 1200,
+        width: 1500,
         height:800,
         webPreferences: {
             preload: path.join(__dirname, "preload.js") // preload.js is loaded before the main application and has access to node and electron variables
