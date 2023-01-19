@@ -10,8 +10,39 @@
 
 <body>
 
-<button onclick="playSound(kaisaniemi)">Kaisaniemi</button>
-<button onclick="playSound(kalasatama)">Kalasatama</button>
+<!--<button onclick="playSound(kaisaniemi)">Kaisaniemi</button>-->
+<button onclick="stopPlayback()">STOP PLAYBACK</button>
+<hr>
+
+<h2>Enso-Svetogorsk fictional line:</h2>
+<p>Clear sounding announcements marked with an asterisk (*). The rest are "authentic" sounds recorded in the train itself.</p>
+
+<div class="vertical-list">
+  <h3>Päärata - Main Line</h3>
+  <button onclick="playSound(ruoholahti_paateasema_kaantoraide)">Ruoholahti, pääteasema, juna menee kääntöraiteelle - Ruoholahti, endstation, train goes to switch direction</button>
+  <button onclick="playSound(rautatientori)">Rautatientori - Central Railway Station</button>
+  <button onclick="playSound(rastila)">*Rastila - Rastböle</button>
+  <button onclick="playSound(rastila_paateasema)">*Rastila pääteasema - Rastila endstation</button>
+  <button onclick="playSound(puotila)">*Puotila - Botby gård</button>
+  <button onclick="playSound(itakeskus_paateasema)">*Itäkeskus, pääteasema, junat Rautatientorille raiteelta 3, Vuosaareen raiteelta 1 - Itäkeskus, endstation, trains to the railway station from track 3, to Vuosaari from track 1</button>
+  <button onclick="playSound(itakeskus_mellunmakeen)">*Itäkeskus, seuraava juna Mellunmäkeen samalta raiteelta hetken kuluttua (tämä juna Vuosaareen) - Itäkeskus, next train to Mellunmäki leaves from the same track in a bit (this train goes to Vuosaari)</button>
+  <button onclick="playSound(itakeskus_vuosaareen)">*Itäkeskus, seuraava juna Vuosaareen samalta raiteelta hetken kuluttua (tämä juna Mellunmäkeen) - Itäkeskus, next train to Vuosaari leaves from the same track in a bit (this train goes to Mellunmäki)</button>
+</div>
+
+<div class="vertical-list">
+  <h3>Pohjoishaara - Northern Branch</h3>
+  <button onclick="playSound(kalasatama)">Kalasatama - Fiskhamnen</button>
+  <button onclick="playSound(vuosaari_paateasema)">*Vuosaari, pääteasema - Vuosaari, endstation</button>
+  <button onclick="playSound(vuosaari_paateasema_kaantoraide)">*Vuosaari, pääteasema, juna menee kääntöraiteelle - Vuosaari, endstation, train goes to switch direction</button>
+</div>
+
+<div class="vertical-list">
+  <h3>Etelähaara - Southern Branch</h3>
+  <button onclick="playSound(siilitie)">Siilitie - Igelkottsvägen</button>
+  <button onclick="playSound(mellunmaki_paateasema)">*Mellunmäki, pääteasema - Mellunmäki, endstation</button>
+  <button onclick="playSound(mellunmaki_paateasema_kaantoraide)">*Mellunmäki, pääteasema, juna menee kääntöraiteelle - Mellunmäki, endstation, train goes to switch direction</button>
+
+</div>
 
 </body>
 
