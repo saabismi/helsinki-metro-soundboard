@@ -143,6 +143,15 @@ function stopPlayback() {
     Howler.stop();
 }
 
+let setNewVolume = document.getElementById("volumeSelector");
+let numericalVolume = document.getElementById("numericalVolume")
+function setVolume() {
+    let registeredVolume = setNewVolume.value / 100;
+    console.log("Volume set to " + registeredVolume);
+    Howler.volume(registeredVolume);
+    numericalVolume.innerText = "Volume: " + setNewVolume.value;
+}
+
 //globalShortcut.register("CommandOrControl+5", playSound(kaisaniemi));
 
 
